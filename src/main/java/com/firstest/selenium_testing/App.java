@@ -26,27 +26,27 @@ public class App
          
          System.out.println("Entering details");
          driver.findElement(By.id("user-name")).sendKeys("standard_user");
-         Thread.sleep(3000);
+         Thread.sleep(2000);
          driver.findElement(By.id("password")).sendKeys("secret_sauce");
-         Thread.sleep(3000);
+         Thread.sleep(2000);
          driver.findElement(By.id("login-button")).click();
-         Thread.sleep(3000);
+         Thread.sleep(2000);
          driver.findElement(By.xpath("/html/body/div/div[2]/div[2]/div/div[2]/div/div[1]/div[3]/button")).click();
-         Thread.sleep(3000);
+         Thread.sleep(2000);
          driver.findElement(By.id("shopping_cart_container")).click();
-         Thread.sleep(3000);
+         Thread.sleep(2000);
          driver.findElement(By.xpath("/html/body/div/div[2]/div[3]/div/div[2]/a[2]")).click();
-         Thread.sleep(3000);
+         Thread.sleep(2000);
          driver.findElement(By.id("first-name")).sendKeys("john");
-         Thread.sleep(3000);
+         Thread.sleep(2000);
          driver.findElement(By.id("last-name")).sendKeys("doe");
-         Thread.sleep(3000);
+         Thread.sleep(2000);
          driver.findElement(By.id("postal-code")).sendKeys("444444");
-         Thread.sleep(3000);
+         Thread.sleep(2000);
          driver.findElement(By.xpath("/html/body/div/div[2]/div[3]/div/form/div[2]/input")).click();
-         Thread.sleep(3000);
+         Thread.sleep(2000);
          driver.findElement(By.xpath("/html/body/div/div[2]/div[3]/div/div[2]/div[8]/a[2]")).click();
-         Thread.sleep(3000);
+         Thread.sleep(2000);
          
          
          driver.quit();
